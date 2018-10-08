@@ -2,3 +2,8 @@
   display: grid;
   grid-template: 150px / auto auto auto;
 }
+.container {
+  display: flex; /* or inline-flex */
+}.container {
+  align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+}
