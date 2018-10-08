@@ -1,35 +1,86 @@
+
+/* overall layout of the html*/
 .grid-container {
   display: grid;
   grid-template: 150px / auto auto auto;
 }
- 
- section {
-float: right;
-margin: 0 1.5%;
-width: 63%;
-}
 
-aside {
-float: left;
-margin: 0 1.5%;
-width: 30%;
-}
-
-img{
-	border-radius: 50%;
-}
-.flex-container {
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-}
-
-
+/*The header section*/
 header {
 	background: red;
-	border-bottom: 3px solid black;
+	border: 3px solid black;
 	display: flex;
     justify-content: center;
     align-items: center;
   
 }
+
+.HeAd{
+	border : 6px solid #949599;
+	justify-content: center;
+	color: white;
+	align-items: center;
+}
+ 
+
+
+
+
+/* the aside section css code*/
+/*aside {
+float: left;
+margin: 0 1.5%;
+width: 30%;
+}*/
+
+#Section2{
+	background-color: grey;
+}
+
+img['src']{
+	border-radius: 50%;
+	border:2px dotted white;
+}
+
+.list4 {
+border: 6px solid #949599;
+}
+
+.list3{
+	border-bottom: 6px solid blue
+}
+
+/* Last section of the resume*/
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+                }
+  .Bio{
+  	border-bottom: 5px solid grey
+  }
+
+  .Work{
+  	border-bottom: 5px solid grey
+  }
+
+ .Edu{
+ 	 border-bottom: 5px solid grey;
+ }
+
+.list1 {
+	border-right: 6px solid grey;
+}
+/*
+ section {
+float: right;
+margin: 0 1.5%;
+width: 63%;
+}*/
+
+
+
+
+
+
