@@ -1,9 +1,25 @@
-.grid-container {
+body.grid-container {
   display: grid;
   grid-template: 150px / auto auto auto;
 }
+ 
+ section {
+float: right;
+margin: 0 1.5%;
+width: 63%;
+}
+aside {
+float: left;
+margin: 0 1.5%;
+width: 30%;
+}
 .container {
   display: flex; /* or inline-flex */
-}.container {
-  align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+}
+header {
+	background: red;
+	display: flex;
+justify-content: center;
+align-items: center;
+  
 }
