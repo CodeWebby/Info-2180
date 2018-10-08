@@ -1,4 +1,4 @@
-body.grid-container {
+.grid-container {
   display: grid;
   grid-template: 150px / auto auto auto;
 }
@@ -8,6 +8,7 @@ float: right;
 margin: 0 1.5%;
 width: 63%;
 }
+
 aside {
 float: left;
 margin: 0 1.5%;
@@ -17,14 +18,18 @@ width: 30%;
 img{
 	border-radius: 50%;
 }
-.container {
-  display: flex; /* or inline-flex */
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
 }
+
+
 header {
 	background: red;
-	border-bottom: 1px solid black;
+	border-bottom: 3px solid black;
 	display: flex;
-justify-content: center;
-align-items: center;
+    justify-content: center;
+    align-items: center;
   
 }
