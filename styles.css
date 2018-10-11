@@ -46,16 +46,13 @@ width: 30%;
 
  img{
 	
-	border-radius: 65%;
-	border:2px dotted #FFD0C3;
-	background-image:url("IMG-20170928-WA0003.jpg"); 
-
-    background-position: left top;
+	border-radius: 51%;
+	border:5px dotted #f5c0b1;
+    background-position: top right ;
     background-repeat: repeat;
-    padding: 20px; 
-    width: 200px;
-    height: 150px; 
-}
+    padding: 5px; 
+    width: 180px;
+    height: 140px; 
 
 .list4 {
 border-bottom: 6px double #E7C2FF;
