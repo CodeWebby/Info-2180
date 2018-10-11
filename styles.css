@@ -44,10 +44,17 @@ width: 30%;
 
 }
 
- .IMG{
+ img{
 	
-	border-radius: 55%;
+	border-radius: 65%;
 	border:2px dotted #FFD0C3;
+	background-image:url("IMG-20170928-WA0003.jpg"); 
+
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
 }
 
 .list4 {
